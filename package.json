@@ -1,0 +1,26 @@
+{
+  "name": "convert-currency",
+  "version": "1.0.0",
+  "description": "Create a image using this pollynatation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishavtiwari22/npm-img-gen.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Rishav Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishavtiwari22/npm-img-gen/issues"
+  },
+  "homepage": "https://github.com/rishavtiwari22/npm-img-gen#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
