@@ -2,7 +2,7 @@
 ## Installation  
 
 ```bash
-npm install convert-currency
+npm install ind-convert-currency
 ````
 
 ---
