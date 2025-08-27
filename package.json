@@ -1,5 +1,5 @@
 {
-  "name": "convert-currency",
+  "name": "ind-convert-currency",
   "version": "1.0.0",
   "description": "Create a image using this pollynatation",
   "main": "index.js",
