@@ -10,7 +10,7 @@ npm install ind-convert-currency
 ## Usage
 
 ```javascript
-import convertCurrency from 'convert-currency';
+import convertCurrency from 'ind-convert-currency';
 
 // Convert 1 USD to INR
 convertCurrency('USD', 'INR', 1).then(result => {
@@ -22,8 +22,10 @@ convertCurrency('USD', 'INR', 1).then(result => {
 
 ```javascript
 // Convert 10 USD to EUR
-convertCurrency('USD', 'EUR', 10).then(result => {
-  console.log(`Converted Amount: ${result}`);
+convertCurrency("INR", "USD", 10).then(result => {
+    console.log(result);
+}).catch(error => {
+    console.error(error);
 });
 ```
 
